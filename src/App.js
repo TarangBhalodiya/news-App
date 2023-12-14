@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 export default class App extends Component {
@@ -16,7 +15,6 @@ constructor(){
   this.state = {
     mode: "light"
 }
-
 }
   toggleMode =()=>{
     console.log("Working")

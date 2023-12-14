@@ -21,8 +21,8 @@ export default class Navbar extends Component {
                                 <li className="nav-item"><Link className="nav-link" to="entertainment">Entertainment</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="health">Health</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="science">Science</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="sports">Sports</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="technology">Technology</Link></li>
                                 <li className="nav-item">
                                     <div className="form-check form-switch">
                                         <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={toggleMode} />
